@@ -15,12 +15,12 @@ public class LocalTestExecution {
 
 	public static RemoteWebDriver driver;
 	
-//@Test
+@Test
 	
-	public static void main(String[] args) throws MalformedURLException {
+	//public static void main(String[] args) throws MalformedURLException {
 		
-//public void OpenChromeBrowser() throws MalformedURLException
-//{
+public void OpenChromeBrowser() throws MalformedURLException
+{
 		WebDriverManager.chromedriver().setup();
 		
 		//Step 1 set up the URL for the Selenium Grid   ...
