@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\Minakshi\AppData\Local\Temp\testng-eclipse--1752008857\testng-customsuite.xml</span>
+                    <span>C:\Users\Minakshi\AppData\Local\Temp\testng-eclipse-325168475\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -104,7 +104,7 @@
                     <div class="method-list-content failed suite-Default_suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.testcases.LocalTestExecution" class="method navigator-link" hash-for-method="OpenChromeBrowser">OpenChromeBrowser</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="com.testcases.AmazonSearchTestcase" class="method navigator-link" hash-for-method="AmazonDynamicSearchTest">AmazonDynamicSearchTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
@@ -122,34 +122,21 @@
           <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">com.testcases.LocalTestExecution</span>
+              <span class="class-name">com.testcases.AmazonSearchTestcase</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="OpenChromeBrowser">
-                  </a> <!-- OpenChromeBrowser -->
-                  <span class="method-name">OpenChromeBrowser</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Unable to execute request for an existing session: java.io.IOException: HTTP/1.1 header parser received no bytes
-Build info: version: &apos;4.19.1&apos;, revision: &apos;abe0ee07dc&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [196e71ba6d213630fe00fc7327b9e7a2, get {url=https://www.amazon.in/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.91, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58449}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.0.0.3:4444/session/..., se:cdpVersion: 124.0.6367.91, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 196e71ba6d213630fe00fc7327b9e7a2
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:300)
-	at com.testcases.LocalTestExecution.OpenChromeBrowser(LocalTestExecution.java:43)
+                  <a name="AmazonDynamicSearchTest">
+                  </a> <!-- AmazonDynamicSearchTest -->
+                  <span class="method-name">AmazonDynamicSearchTest</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: &apos;LAPTOP-FBSM9Q6P&apos;, ip: &apos;10.0.0.3&apos;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:536)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:161)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:141)
+	at com.testcases.AmazonSearchTestcase.AmazonDynamicSearchTest(AmazonSearchTestcase.java:43)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -178,6 +165,37 @@ Session ID: 196e71ba6d213630fe00fc7327b9e7a2
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.TimeoutException: java.net.http.HttpConnectTimeoutException: HTTP connect timed out
+Build info: version: &apos;4.19.1&apos;, revision: &apos;abe0ee07dc&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:386)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:352)
+	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	... 32 more
+Caused by: java.net.http.HttpConnectTimeoutException: HTTP connect timed out
+	at java.net.http/jdk.internal.net.http.MultiExchange.toTimeoutException(MultiExchange.java:580)
+	at java.net.http/jdk.internal.net.http.MultiExchange.getExceptionalCF(MultiExchange.java:527)
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$7(MultiExchange.java:447)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at java.net.http/jdk.internal.net.http.Http1Exchange.lambda$cancelImpl$9(Http1Exchange.java:483)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.net.ConnectException: HTTP connect timed out
+	at java.net.http/jdk.internal.net.http.MultiExchange.toTimeoutException(MultiExchange.java:581)
+	... 10 more
 
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -187,7 +205,7 @@ Session ID: 196e71ba6d213630fe00fc7327b9e7a2
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Minakshi\AppData\Local\Temp\testng-eclipse--1752008857\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Minakshi\AppData\Local\Temp\testng-eclipse-325168475\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -196,7 +214,7 @@ Session ID: 196e71ba6d213630fe00fc7327b9e7a2
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.testcases.LocalTestExecution&quot;/&gt;
+      &lt;class name=&quot;com.testcases.AmazonSearchTestcase&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -238,14 +256,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'OpenChromeBrowser')
-data.setCell(0, 2, 'com.testcases.LocalTestExecution')
-data.setCell(0, 3, 51066);
+data.setCell(0, 1, 'AmazonDynamicSearchTest')
+data.setCell(0, 2, 'com.testcases.AmazonSearchTestcase')
+data.setCell(0, 3, 18104);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 51 seconds</span>
+              <span class="suite-total-time">Total running time: 18 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -271,11 +289,11 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.testcases.LocalTestExecution</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.testcases.AmazonSearchTestcase</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">OpenChromeBrowser</span>
+                <span class="method-name">AmazonDynamicSearchTest</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->

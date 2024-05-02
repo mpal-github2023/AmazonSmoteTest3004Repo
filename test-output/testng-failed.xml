@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testcases.LocalTestExecution">
+      <class name="com.testcases.AmazonSearchTestcase">
         <methods>
-          <include name="OpenChromeBrowser"/>
+          <include name="AmazonDynamicSearchTest"/>
         </methods>
-      </class> <!-- com.testcases.LocalTestExecution -->
+      </class> <!-- com.testcases.AmazonSearchTestcase -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
